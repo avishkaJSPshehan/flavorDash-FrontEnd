@@ -2,10 +2,11 @@ import { Route, Routes } from "react-router-dom";
 import AuthLayout from "./components/auth/layout";
 import AuthLogin from "./pages/auth/login";
 import AuthRegister from "./pages/auth/register";
+import RestaurantLayout from "./components/restaurant-view/layout";
 import AdminLayout from "./components/admin-view/layout";
 import AdminDashboard from "./pages/admin-view/dashboard";
 import AdminProducts from "./pages/admin-view/products";
-import AdminOrders from "./pages/admin-view/orders";
+import RestaurantOrders from "./pages/restaurant-view/orders";
 import AdminFeatures from "./pages/admin-view/features";
 import ShoppingLayout from "./components/shopping-view/layout";
 import NotFound from "./pages/not-found";
@@ -75,16 +76,16 @@ function App() {
         </Route>
 
         <Route
-          path="/restorent"
+          path="/restaurant"
           element={
             <CheckAuth isAuthenticated={isAuthenticated} user={user}>
-              <AdminLayout />
+              <RestaurantLayout />
             </CheckAuth>
           }
         >
           {/* <Route path="dashboard" element={<AdminDashboard />} /> */}
           {/* <Route path="products" element={<AdminProducts />} /> */}
-          <Route path="orders" element={<AdminOrders />} />
+          <Route path="" element={<RestaurantOrders />} />
           {/* <Route path="features" element={<AdminFeatures />} /> */}
         </Route>
 
