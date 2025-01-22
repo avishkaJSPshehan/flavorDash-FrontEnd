@@ -11,7 +11,9 @@ function CheckAuth({ isAuthenticated, user, children }) {
     } else {
       if (user?.role === "admin") {
         return <Navigate to="/admin/dashboard" />;
-      } else {
+      } else if(user?.role === "restaurant"){
+        return <Navigate to="/restaurant" />;
+      } else{
         return <Navigate to="/shop/home" />;
       }
     }
@@ -34,7 +36,9 @@ function CheckAuth({ isAuthenticated, user, children }) {
   ) {
     if (user?.role === "admin") {
       return <Navigate to="/admin/dashboard" />;
-    } else {
+    } else if(user?.role === "restaurant"){
+      return <Navigate to="/restaurant" />;
+    } else{
       return <Navigate to="/shop/home" />;
     }
   }
