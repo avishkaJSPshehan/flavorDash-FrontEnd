@@ -1,14 +1,10 @@
 import { Button } from "@/components/ui/button";
-import bannerOne from "../../assets/banner-1.webp";
-import bannerTwo from "../../assets/banner-2.webp";
-import bannerThree from "../../assets/banner-3.webp";
-import bannerFour from "../../assets/banner-4.webp";
 import QuickBites from "../../assets/QuickBites.png";
 import GreenEats from "../../assets/GreenEats.png";
 import SweetSip from "../../assets/SweetSip.png";
 import GlobalFlavors from "../../assets/GlobalFlavors.png";
 import FeastBox from "../../assets/FeastBox.png";
-import hm from "../../assets/hm.png";
+
 import {
   BabyIcon,
   ChevronLeftIcon,
