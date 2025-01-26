@@ -25,7 +25,7 @@ const adminSidebarMenuItems = [
   //   id: "orders",
   //   label: "Orders",
   //   path: "/admin/orders",
-  //   icon: <BadgeCheck />,9
+  //   icon: <BadgeCheck />,
   // },
 ];
 
