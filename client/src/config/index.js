@@ -58,11 +58,11 @@ export const addProductFormElements = [
     name: "category",
     componentType: "select",
     options: [
-      { id: "men", label: "Men" },
-      { id: "women", label: "Women" },
-      { id: "kids", label: "Kids" },
-      { id: "accessories", label: "Accessories" },
-      { id: "footwear", label: "Footwear" },
+      { id: "QuickBites", label: "QuickBites" },
+    { id: "GreenEats", label: "GreenEats" },
+    { id: "SweetSip", label: "SweetSip" },
+    { id: "GlobalFlavors", label: "GlobalFlavors" },
+    { id: "FeastBox", label: "FeastBox" },
     ],
   },
   {
@@ -70,13 +70,8 @@ export const addProductFormElements = [
     name: "brand",
     componentType: "select",
     options: [
-      { id: "nike", label: "Nike" },
-      { id: "adidas", label: "Adidas" },
-      { id: "puma", label: "Puma" },
-      { id: "levi", label: "Levi's" },
-      { id: "zara", label: "Zara" },
-      { id: "h&m", label: "H&M" },
-      { id: "others", label: "Others" },
+      { id: "Food", label: "Food" },
+      { id: "Drink", label: "Drink" },
     ],
   },
   {
@@ -154,12 +149,12 @@ export const categoryOptionsMap = {
 };
 
 export const brandOptionsMap = {
-  nike: "Nike",
-  adidas: "Adidas",
-  puma: "Puma",
-  levi: "Levi",
-  zara: "Zara",
-  "h&m": "H&M",
+  // nike: "Nike",
+  // adidas: "Adidas",
+  // puma: "Puma",
+  // levi: "Levi",
+  // zara: "Zara",
+  // "h&m": "H&M",
 };
 
 export const filterOptions = {
